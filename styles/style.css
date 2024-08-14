@@ -506,15 +506,19 @@ html {
 }
 #img-1 {
   background: url("/images/image\ 3.png");
+  margin: auto;
 }
 #img-2 {
   background: url("/images/image\ 2.png");
+  margin: auto;
 }
 #img-3 {
   background: url("/images/image\ 4.png");
+  margin: auto;
 }
 #img-4 {
   background: url("/images/image\ 5.png");
+  margin: auto;
 }
 
 .division-1 {
