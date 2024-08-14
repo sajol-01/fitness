@@ -505,19 +505,19 @@ html {
   max-width: 1920px;
 }
 #img1{
-  background-image: url(/images/coach1.png);
+  background-image: url(./images/coach1.png);
   margin: auto;
 }
 #img2{
-  background-image: url(/images/coach2.png);
+  background-image: url(./images/coach2.png);
   margin: auto;
 }
 #img3{
-  background-image: url(/images/coach3.png);
+  background-image: url(./images/coach3.png);
   margin: auto;
 }
 #img4{
-  background-image: url(/images/coach4.png);
+  background-image: url(./images/coach4.png);
   margin: auto;
 }
 
