@@ -2,7 +2,7 @@
 .inter-font-family {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
+
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
@@ -13,12 +13,14 @@ html {
 .display-flex {
   display: flex;
 }
+.align-center {
+  text-align: center;
+}
 
 /* HEADER SECTION */
 
 /* navigation bar */
 .navigation {
-  /* max-width: 1440px; */
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 100px;
@@ -51,6 +53,7 @@ html {
 }
 .header {
   background: linear-gradient(#000000, #434343, #000000);
+  max-height: 800px;
 }
 .header-section {
   margin-right: 800px;
@@ -95,15 +98,16 @@ html {
   width: 224px;
   padding: 16px 40px;
   border-radius: 42px;
-  border: 1px #fff;
+  border: 1px solid #fff;
   font-size: 1.125rem;
   font-weight: 600;
+  background: transparent;
+  color: #fff;
 }
 .front-img {
   width: 100%;
 }
 .front-1 {
-  /* display: flex; */
 }
 .box-1 {
   width: 206px;
@@ -167,4 +171,709 @@ html {
 }
 #info-description {
   font-size: 0.8rem;
+}
+/* DESIGN FOR MOBILE [ALL] */
+
+@media (max-width: 576px) {
+  .navigation {
+    padding: 0 20px;
+
+    flex-direction: row;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    align-items: center;
+  }
+
+  #menuList {
+    color: white;
+    display: flex;
+  }
+  .menu-icon-container {
+    transform: translate(120px, 30px);
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    display: block;
+  }
+
+  .header {
+    background: linear-gradient(#000000, #434343, #000000);
+    max-width: 576px;
+    background-repeat: c;
+  }
+
+  .header-section {
+    margin-right: 0;
+    text-align: left;
+    width: 250px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+    text-align: left;
+    width: 200px;
+    padding-left: 20px;
+  }
+
+  #shape {
+    font-size: 4rem;
+    line-height: normal;
+  }
+
+  .header-description {
+    font-size: 0.875rem;
+    margin: 20px 0;
+    width: auto;
+    padding-left: 20px;
+  }
+  .buttons {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .join-club,
+  .dwn-app {
+    width: 150px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+  .dwn-app {
+    transform: translate(170px, -40px);
+  }
+  .join-club {
+    margin-left: 0px !important;
+  }
+
+  .front-img {
+    width: 353px;
+    height: 588px;
+    padding-bottom: 200px;
+  }
+  .part-2 {
+    justify-content: center;
+  }
+  .hero-1 {
+    flex-direction: column;
+  }
+
+  .info-box,
+  .info-box-2 {
+    transform: translate(0, 0);
+    margin: 20px auto;
+    max-width: 150px;
+    width: 90%;
+  }
+  .info-box {
+    transform: translate(-100px, -450px);
+  }
+  .info-box {
+    margin-bottom: 10px;
+  }
+
+  .info-box-2 {
+    margin-top: 10px;
+    transform: translate(110px, -860px);
+  }
+
+  .info-number {
+    font-size: 1rem;
+  }
+
+  .info-description,
+  #info-description {
+    font-size: 0.875rem;
+  }
+  /* Section-2 Mobile Design */
+  .circle-container {
+    flex-direction: column;
+  }
+  .circle {
+    transform: translate(35px);
+  }
+  .title-container {
+    padding-top: 255px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .circle-description {
+    width: 200px;
+  }
+  /* Section-3 Mobile Design */
+  .run-main {
+    flex-direction: column;
+    display: flex;
+    width: 353px;
+  }
+  .run-division {
+    height: 680px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .run-description {
+    max-width: 300px;
+    font-size: 1.5rem;
+  }
+
+  .run {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .run-img-container {
+    transform: translate(-20px, -30px) !important ;
+  }
+  /* Section-3 Mobile Design */
+  .table-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bmi-chart {
+    padding-left: 50px !important;
+  }
+  .bmi-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    text-align: left;
+    padding-left: 20px;
+  }
+  .bmi-chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .calculation-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #join-now-run {
+    margin-left: 52px !important;
+    padding: 5px 20px 5px 20ox !important;
+    width: 266px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: #e6533c;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+  #height-bar {
+    width: 150px;
+  }
+  #age-bar {
+    width: 150px;
+  }
+  #weight-bar {
+    width: 165px;
+  }
+  #sex-bar {
+    width: 200px;
+    padding-left: 0px !important;
+  }
+  #activity-bar {
+    width: 380px;
+    padding-right: 10px !important;
+  }
+  /* Section 5 design */
+  #bmi-btn {
+    margin-left: 100px;
+  }
+  /* Section-6 Mobile Design */
+  .team-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .team-canvus {
+    height: 2000px !important;
+    width: 500px !important;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  /* Section-6 Mobile Design */
+  .fitness {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px !important;
+    padding-left: 20px;
+  }
+  /* Section footer mobile design */
+  .footer-border {
+    width: 95% !important;
+    padding-top: 40px;
+    gap: 20px;
+  }
+  .footer-border-container {
+  }
+  .footer-text {
+    padding-top: 40px;
+  }
+  .footer {
+    background: #313131;
+  }
+  /* End of mobile design */
+}
+
+.habit-description {
+  max-width: 300px;
+  text-align: center;
+
+  align-items: center;
+}
+
+/* DESIGN MAIN */
+/* Section-2 */
+.section-2 {
+  background: #000;
+}
+.habit-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #fff;
+}
+.habit-description {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  text-align: center;
+
+  max-width: 400px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 55px;
+}
+.circle-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: #fff;
+}
+.circle-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.circle-container {
+  justify-content: center;
+  gap: 50px;
+
+  padding-bottom: 100px;
+}
+.img-container {
+  text-align: center;
+  align-items: center;
+}
+.main {
+  max-width: 1920px;
+}
+#img-1 {
+  background: url("/images/image\ 3.png");
+}
+#img-2 {
+  background: url("/images/image\ 2.png");
+}
+#img-3 {
+  background: url("/images/image\ 4.png");
+}
+#img-4 {
+  background: url("/images/image\ 5.png");
+}
+
+.division-1 {
+  text-align: center;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Section-3 */
+.section-3 {
+  background: #000;
+
+  padding-bottom: 100px;
+}
+.run-division-container {
+  display: flex;
+  justify-content: center;
+}
+.run-division {
+  height: 380px;
+  width: 1200px;
+  border-radius: 18px;
+  background: #222;
+  align-items: center;
+}
+.run-img-container {
+  transform: translate(20px, 30px);
+}
+.run-img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+}
+#run-image {
+  background: url("/images/run-img.jpg");
+}
+.run-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  width: 300px;
+  padding-left: 50px;
+}
+.run-description {
+  width: 500px;
+  padding-left: 50px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.run-main {
+  justify-content: space-around;
+}
+#join-now {
+  transform: translate(-50px);
+}
+/* Section-4 */
+.training-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.training-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+#image-1 {
+  height: 215px;
+  width: 320px;
+  background: rgba(6, 255, 210, 0.5);
+}
+#image-2 {
+  height: 215px;
+  width: 530px;
+}
+#image-3 {
+  height: 215px;
+  width: 380px;
+}
+#image-4 {
+  height: 240px;
+  width: 430px;
+}
+#image-5 {
+  height: 240px;
+  width: 400px;
+}
+#image-6 {
+  height: 240px;
+  width: 400px;
+}
+.training-img-container {
+  text-align: center;
+  align-items: center;
+}
+.training-images {
+  background: rgba(6, 255, 210, 0.5);
+}
+/* Section-5 */
+.section-5 {
+  background: #222;
+}
+.bmi-calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.bmi-calculator {
+  position: relative;
+}
+.section-4-container {
+  justify-content: center;
+}
+.bmi-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-top: 0px;
+}
+.bmi-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* table */
+.table-header {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #fff;
+  padding: 10px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+table > th {
+  font-size: 1rem;
+}
+table {
+  border-collapse: collapse;
+}
+.table-data {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.table-container {
+  gap: 150px;
+}
+.bmi-chart-title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.bmi-chart-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 400px;
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: Inter;
+}
+.team-canvus-texts-container {
+  background: #000;
+}
+
+#height-bar {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.6);
+}
+#weight-bar {
+  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.6);
+}
+#age-bar {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.6);
+}
+#sex-bar {
+  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 140px 10px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.6);
+}
+#activity-bar {
+  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 262px 10px 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+}
+#bmi-btn {
+  transform: translate(-100px);
+}
+/* SECTION-6 */
+
+.section-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #000;
+}
+.team-canvus-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+}
+.team-canvus-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-canvus-texts {
+  text-align: center;
+  padding-top: 40px;
+}
+.team-canvus {
+  height: 670px;
+  width: 1000px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.team-image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.div-class {
+  text-align: center;
+  position: relative;
+}
+
+.img-class {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.trainer-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.h6-class {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #fff;
+  margin: 0px;
+}
+.p-class {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 0px;
+  text-align: left;
+}
+/* SECTION-7-DESIGN */
+.section-7 {
+  background: #313131;
+}
+.fitness-title {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: #e6533c;
+  margin-bottom: 5px;
+}
+.fitness-description {
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 400px;
+}
+.get-items {
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+
+  padding: 0px;
+}
+.get-started-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.list- {
+  font-size: 1.45rem;
+  font-weight: 400;
+  text-align: left;
+}
+.fitness {
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 0px;
+}
+.get-started {
+  text-align: left;
+}
+/* Design of footer */
+.footer-border {
+  max-width: 1000px;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 40px;
+  margin: auto;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer {
+  background: #313131;
+}
+
+.menu-icon {
+  color: white;
+  display: none;
 }
