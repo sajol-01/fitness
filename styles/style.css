@@ -474,12 +474,16 @@ html {
 
   max-width: 400px;
 }
-.circle {
+.circle img {
   height: 200px;
   width: 200px;
   border: 1px solid black;
-  border-radius: 50%;
-  margin-left: 55px;
+  border-radius: 100% !important;
+  /* margin-left: 55px; */
+  margin: auto;
+}
+#img2{
+  border-radius: 50% !important;
 }
 .circle-title {
   font-size: 1.12rem;
@@ -504,22 +508,22 @@ html {
 .main {
   max-width: 1920px;
 }
-#img1{
-  background-image: url(./images/coach1.png);
+/* #img1{
+  background-image: url(/images/coach1.png);
   margin: auto;
 }
 #img2{
-  background-image: url(./images/coach2.png);
+  background-image: url(/images/coach2.png);
   margin: auto;
 }
 #img3{
-  background-image: url(./images/coach3.png);
+  background-image: url(/images/coach3.png);
   margin: auto;
 }
 #img4{
-  background-image: url(./images/coach4.png);
+  background-image: url(/images/coach4.png);
   margin: auto;
-}
+} */
 
 .division-1 {
   text-align: center;
@@ -551,14 +555,14 @@ html {
 .run-img-container {
   transform: translate(20px, 30px);
 }
-.run-img {
+.run-img img {
   width: 366px;
   height: 312px;
   border-radius: 18px;
 }
-#run-image {
+/* #run-image {
   background-image: url(/images/run-image1.jpg);
-}
+} */
 .run-title {
   color: #fff;
   font-size: 3rem;
