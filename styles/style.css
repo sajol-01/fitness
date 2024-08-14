@@ -505,19 +505,19 @@ html {
   max-width: 1920px;
 }
 #img-1 {
-  background: url("/images/image3.png");
+  background: url("./images/image3.png");
   margin: auto;
 }
 #img-2 {
-  background: url("/images/image2.png");
+  background: url("./images/image2.png");
   margin: auto;
 }
 #img-3 {
-  background: url("/images/image4a.png");
+  background: url("./images/image4a.png");
   margin: auto;
 }
 #img-4 {
-  background: url("/images/image5.png");
+  background: url("./images/image5.png");
   margin: auto;
 }
 
@@ -557,7 +557,7 @@ html {
   border-radius: 18px;
 }
 #run-image {
-  background: url("/images/run-img.jpg");
+  background: url("./images/run-img.jpg");
 }
 .run-title {
   color: #fff;
