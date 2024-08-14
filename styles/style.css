@@ -557,7 +557,7 @@ html {
   border-radius: 18px;
 }
 #run-image {
-  background: url("/images/run-image1.jpg");
+  background: url("./images/run-image1.jpg");
 }
 .run-title {
   color: #fff;
