@@ -504,19 +504,19 @@ html {
 .main {
   max-width: 1920px;
 }
-#img-1 {
+#img1{
   background: url("./images/coach1.png");
   margin: auto;
 }
-#img-2 {
+#img2{
   background: url("./images/coach2.png");
   margin: auto;
 }
-#img-3 {
+#img3{
   background: url("./images/coach3.png");
   margin: auto;
 }
-#img-4 {
+#img4{
   background: url("./images/coach4.png");
   margin: auto;
 }
