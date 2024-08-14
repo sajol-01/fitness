@@ -505,19 +505,19 @@ html {
   max-width: 1920px;
 }
 #img1{
-  background: url("./images/coach1.png");
+  background: url("/images/coach1.png");
   margin: auto;
 }
 #img2{
-  background: url("./images/coach2.png");
+  background: url("/images/coach2.png");
   margin: auto;
 }
 #img3{
-  background: url("./images/coach3.png");
+  background: url("/images/coach3.png");
   margin: auto;
 }
 #img4{
-  background: url("./images/coach4.png");
+  background: url("/images/coach4.png");
   margin: auto;
 }
 
@@ -557,7 +557,7 @@ html {
   border-radius: 18px;
 }
 #run-image {
-  background: url("./images/run-image1.jpg");
+  background: url("/images/run-image1.jpg");
 }
 .run-title {
   color: #fff;
